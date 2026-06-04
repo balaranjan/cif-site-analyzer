@@ -1,0 +1,13 @@
+# environment.yml
+name: cif_sa
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - matplotlib
+  # Add your other conda dependencies here
+  - pip:
+      - git+https://github.com/balaranjan/cif_reader.git
