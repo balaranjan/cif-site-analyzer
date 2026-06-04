@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cif-site-analyzer"
-version = "0.0.1"
+version = "2026.6.4"
 dynamic=['dependencies']
 
 [project.scripts]

@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import numpy as np
 import pandas as pd
-from cif_site_analyzer.cif_reader import read_cif
-from cif_site_analyzer.cif_reader.base import _parse_formula
+from cif_reader import read_cif
+from cif_reader.base import _parse_formula
 from collections import defaultdict
 
 
